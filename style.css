@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f6fa;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #2d3436;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.overview {
+    background-color: #74b9ff;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.overview h2 {
+    font-size: 2rem;
+}
+
+.income-expense {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.income-expense div {
+    width: 48%;
+    background-color: #00cec9;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.income-expense .income {
+    background-color: #00b894;
+}
+
+.income-expense .expense {
+    background-color: #d63031;
+}
+
+.transaction-form {
+    margin-bottom: 20px;
+}
+
+.transaction-form h2 {
+    text-align: center;
+    color: #2d3436;
+}
+
+#transaction-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#transaction-form input,
+#transaction-form select,
+#transaction-form button {
+    width: 48%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#transaction-form button {
+    width: 100%;
+    background-color: #0984e3;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#transaction-form button:hover {
+    background-color: #74b9ff;
+}
+
+.transaction-list {
+    background-color: #dfe6e9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.transaction-list h2 {
+    text-align: center;
+    color: #2d3436;
+}
+
+#transactions {
+    list-style: none;
+}
+
+#transactions li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
